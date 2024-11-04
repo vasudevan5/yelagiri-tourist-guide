@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Responsive Portfolio Website Design</title>
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+       
+    </style>
+</head>
+
+<body >
+
+
+
+
+
+
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Yelagiri Guide</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#testimonial">Place to Visit </a>
+            <a href="#services">Public Transport   </a>
+            <a href="#portfolio">Hotels ans Residency</a>
+            <a href="#contact">Contact</a>
+
+            
+            <a href="./YELAGIRI.pdf" download=".pdf"  >    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/>
+                <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"/>
+              </svg></a>
+  
+        </nav>
+      
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+
+  <!-- HOME DESIGN  -->
+
+
+
+    <Section class="sect">
+       <h1 id="text">  Adventure</h1>
+       <br> <br>
+       <br>
+      
+       
+       <!-- <h2 id="text"><span>It's time for a new</span><br>Adventure</h2>-->
+        
+        <img src="https://user-images.githubusercontent.com/65358991/170092504-132fa547-5ced-40e5-ab64-ded61518fac2.png" id="bird1">
+        <img src="https://user-images.githubusercontent.com/65358991/170092542-9747edcc-fb51-4e21-aaf5-a61119393618.png" id="bird2">
+        <img src="https://user-images.githubusercontent.com/65358991/170092559-883fe071-eb4f-4610-8c8b-a037d061c617.png" id="forest">
+        
+        <img src="monutain_01.png" id="m1">
+        <img src="./images/trees_02.png" id="t2">
+    <img src="monutain_02.png" id="m2">
+        
+        <img src="https://user-images.githubusercontent.com/65358991/170092605-eada6510-d556-45cc-b7fa-9e4d1d258d26.png" id="rocks">
+        <img src="https://user-images.githubusercontent.com/65358991/170092616-5a70c4af-2eed-496f-bde9-b5fcc7142a31.png" id="water">
+    </Section>
+    
+  
+    <!-- partial -->
+  <script  src="./script.js"></script>
+
+   
+
+  <!-- ABOUT  DESIGN-->
+    
+   
+
+ 
+  <section class="parallax" class="about" id="about">
+ 
+    <img src="monutain_01.png" id="m1">
+        <img src="./images/trees_02.png" id="t2">
+    <img src="monutain_02.png" id="m2">
+    <img src="trees_01.png" id="t1">-->
+     <img src="./images/man.png" id="man">
+    <img src="./images/plants.png" id="plants">
+    
+
+    
+    <p class="parag" class="about-content" class="about">
+
+        <b> <caption>
+       Yelagiri  Located in   :Tirupattur <br><br>
+       Area of yelagiri hills     : 30 KM <BR><br>
+       Height of Yelagiri hills : 1100 Meter<br><br>  
+       Climate in Winter season : 12-25 Degree Celsius<br> <br>
+       Population in Yelagiri is:   4409
+        </caption></b>
+      <br>
+      <br>
+    
+      
+      <a href="./YELAGIRI.pdf" download class="btn">Download Guide  
+          <br>
+       </a>
+    <br>
+    <br>
+       It is a popular destination for nature lovers and weekend getaways.<br> 
+        Its rocky hills and natural beauty make it an ideal escape from city life.
+     
+
+        </p>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"></script>
+  <script>
+    
+    gsap.from("#t2",{
+      scrollTrigger : {
+        scrub: true
+      },
+      x: -50,
+    })
+  
+    gsap.from("#man",{
+      scrollTrigger : {
+        scrub: true
+      },
+      x: -250,
+    })
+    gsap.from("#plants",{
+      scrollTrigger : {
+        scrub: true
+      },
+      x: -50,
+    })
+    gsap.from("#text",{
+      scrollTrigger : {
+        scrub: true
+      },
+      x: 600,
+    })
+  </script>
+
+    
+           
+
+
+
+
+
+
+<!--  TOURIST PLACE DESIGN -->
+
+
+
+
+    <!-- testimonial design -->
+    <section id="testimonial" class="testimonial">
+    <div class="testimonial-container">
+        <h2 class="heading">PLace <span>to Visit</span></h2>
+
+        <div class="testimonial-wrapper">
+            <div class="testimonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+      
+                    <div class="testimonial-slide swiper-slide" >  
+
+                        <img src="images/Nature-Park.jpg" alt="" style="max-width: 100%; height: auto;">
+                        <h3>NATURE PARK</h3>
+                            <h3>  <caption><p style="text-align: left;" >Open Time : 7.00 AM - 8.00 PM<br>
+                            Cost : Rs.15/- for adults and Rs.10/- for children.<br>
+                            Place : Punganoor <br> <br>
+                            <a href="https://maps.app.goo.gl/DyuLarjQLRv5bSkk9" target="_blank"> Click here for Location...</a>
+                            </p> </caption> </h3><br>
+                              <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">The park is the best destination for all ages of people and provide a feeling of relaxation and stunning environment. It consists of diversified and enormous numbers of flora. There are number of things such as artificial cascade or the waterfall, children's park, musical fountain with multi-coloured lighting, fish aquarium, seasonal garden, bamboo house, poly house and many more to engage kids and even elders for a long time.</p>
+                        </p>
+                    </div>
+
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/boot-house.jpg" alt="" style="max-width: 100%; height: auto;">
+                        <h3>BOAT HOUSE</h3>
+                        <h3>  <caption ><p style="text-align: left;">Open Time : 7.00 AM - 8.00 PM<br>
+                                Cost : Rs.20/- for adults and Rs.15/- for children.<br>
+                                Place : Punganoor <br> <br>
+                                <a href="https://maps.app.goo.gl/YgDcJtV1e4vbYQjT8" target="_blank"> Click here for Location...</a>
+                             </p> </caption> </h3><br>
+    
+                            </h3>
+                        <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">The boat house located adjecent to the park with the boating for tourists is a pleasent expereince here at Yelagiri. Life jackets are given and the crew seems well trained.  . A nice expereince worth the boat ride</p>
+                    </div>
+
+
+
+                    <div class="testimonial-slide swiper-slide">
+                      <a href="https://www.funderapark.com/" target="_blank">  <img src="images/Funtera-park.jpg" alt="" style="max-width: 100%; height: auto;"> </a>
+                        <h3 class="underline"> <a href="https://www.funderapark.com/" target="_blank">FUNDERA PARK </a></h3>
+                        <h3>  <caption ><p style="text-align: left;">Open Time : 09.30 AM - 6.30 PM<br>
+                            Entry fees : Rs 250 /-<br>
+                            Place : Nilovoor  <br> <br>
+                            <a href="https://maps.app.goo.gl/Zz3D4m5zQNGqmUep6" target="_blank"> Click here for Location...</a></p> </caption> </h3><br>
+
+                        </h3>
+
+                        <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Fundera Park is a place where your complete family can enjoy your holidays with pets in their natural habitat setup. We have more than 500 exotic birds and animals, none of them are caged and you can enter into their aviary and Interact with them. Also we have Petting farm, Farm animals, Ostriches, Emus. Cat House, Husky Play Area, lot of Exotic animals and Fishes     
+                        </p>
+                     </div>
+
+
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/velavan-temple.jpg" alt="" style="max-width: 100%; height: auto;">
+                        <h3>VELAVAN TEMPLE</h3>
+                        <h3>  <caption ><p style="text-align: left;">Open Time : 06.00 AM - 8.00 PM
+                            <br>
+                            Place : Nilovoor <br> <br>
+                            <a href="https://maps.app.goo.gl/qoMFTThQ7eTCdf4r8" target="_blank"> Click here for Location...</a></p> </caption> </h3><br>
+
+
+                        <p  style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Velavan Temple is dedicated to worshipping Lord Murugan. Thetemple has a fantastic view of the surrounding hills and it houses a rare Gadothgajan, the son of Bheema, at its entrance.</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/swami-hill.jpg" alt="" style="max-width: 100%; height: auto;">
+                        <h3>SWAMI MALAI HILLS</h3>'
+                        <h3>  <caption ><p style="text-align: left;">Open Time : 06.00 AM - 8.00 PM<br>
+                            Entey Fee : Rs 350<br>
+                            Place :Mangalam
+                            <br> <br>
+                            <a href="https://maps.app.goo.gl/SS8VfB3LTfUAbT7fA" target="_blank"> Click here for Location...</a></p> </caption> </h3><br>
+                        <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Yelagiri's most popular hill and one of the most breath taking as  well, the Swami Malai Hill is the highest point of the hill station. A 3 km trek from the Punganoor lake will take you to the hill top.</p>
+                    </div>
+
+
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/shivan.jpg" alt="" style="max-width: 100%; height: auto;">
+                        <h3>SHIVAN TEMPLE</h3>
+                        <h3>  <caption ><p style="text-align: left;">Open Time : 07.00 AM - 1.00 PM  And 3.00 PM - 7.00PM<br>                          
+                            Place :Mangalam <br> <br>
+                            <a href="https://maps.app.goo.gl/3QLKnUggCbvPv61W9" target="_blank"> Click here for Location...</a></p> </caption> </h3><br>
+
+                        <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Shiva temple is located at the foothills of Swamimalai, on Mangalam Road. Recently built temple has a Circular Garbha griha. Statues of Maharishis adorn the front yard.
+                            The Temple offers beautiful views of hills and valleys all around
+                            </p>
+                    </div>
+
+
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/perumal kovil.jpg" alt="" style="max-width: 100%; height: auto;">
+                        <h3>PERUMAL  TEMPLE</h3>
+                        <h3>  <caption ><p style="text-align: left;">Open Time : 07.30 AM - 12.00 PM  And 4.00 PM - 7.00PM<br>                          
+                            Place : Athanvoor <br> <br>
+                            <a href="https://maps.app.goo.gl/VkpK8MVyrwY5nLHD9" target="_blank"> Click here for Location...</a></p> </caption> </h3><br>
+
+                        <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">The temple has a few more shrines including Ramanujar, Manavala Mamunigal and Anjaneyar.It is said an ancient temple existed here centuries ago, and an ancient deity of Adi Kesava Perumal along with some lamps were excavated here while constructing the current temple.</p>
+                    </div>
+
+
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/Nachi Amman.jpg" alt="" style="max-width: 100%; height: auto;">
+                        <h3>NACHI AMMAN</h3>
+                            <h3>  <caption ><p style="text-align: left;">Open Time : 07.00 AM - 1.00 PM  And 3.00 PM - 7.00PM<br>                          
+                                Place :	Nilavoor <br> <br>
+                                <a href="https://maps.app.goo.gl/z2d4NkGYNTFp1LJZ9" target="_blank"> Click here for Location...</a></p> </caption> </h3><br>
+                            
+                        <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Kadavu Nachi Amman temple, a devi temple situated on the banks of Nilavoor lake is a calm, serene place.
+                            One can walk to Nilavoor Cliff view point from here. The temple with a back drop of green hills around is quite scenic.
+                            </p>
+                    </div>
+
+
+                    <div class="testimonial-slide swiper-slide">
+                       <a href="https://cloudforestpark.com/" target="_blank" >  <img src="images/cloud.jpg"  alt=""  style="max-width: 100%; height: auto;" > </a>
+                        <h3 > <u><a class="underline" href="https://cloudforestpark.com/" target="_blank" > FOREST ENTERTAINMENT PARK </a> </u></h3>
+                         <h3>  <caption ><p style="text-align: left;">Open Time : 09.00 AM - 7.00 PM  <br>     
+                            Entey fee :Rs 250 <BR>                     
+                                Place :	Mettukaniyur <br> <br>
+                                <a  href="https://maps.app.goo.gl/cwSgeqcjbW1mQm9W6" target="_blank"> Click here for Location...</a></p> </caption> </h3><br>
+
+
+                        <p>The park is home to so many different birds, like parrots, pigeons, and chicks, and it's so colorful and vibrant. It truly gave me a sense of being in nature.</p>
+                    </div>
+
+    
+                    
+
+                    <div class="testimonial-slide swiper-slide">
+                        <a href="//www.yelagirimountainview.com/" target="_blank">   <img src="images/mountain.png" alt="" style="max-width: 100%; height: auto;"></a>
+                           <h3> <a class="underline" href="//www.yelagirimountainview.com/"  target="_blank"> MOUNTAIN VIEW ADVENTURE PARK</h3> </a>
+                           <h3>  <caption ><p style="text-align: left;">Open Time : 09.00 AM - 7.00 PM  <br>     
+                               Entey fee : adult Rs 250  childrens RS 110<BR>                     
+                                   Place :	kottur <br> <br>
+                                   <a href="https://maps.app.goo.gl/yG6NdEjPbWLDX4fo6" target="_blank"> Click here for Location...</a></p> </caption> </h3><br>
+                           <p>Discover fun and adventure amidst nature and beauty. Visit us and experience a truly memorable adventure. We provide, 1) Zipline 2) Paintball 3) ATV 4) Bunjee Ejection 6) Giant Swing 6) Trekking to waterfall and many others</p>
+                   </div>
+   
+                       
+    
+                        <div class="testimonial-slide swiper-slide">
+                            <a href="https://www.thrillvalley.com/" target="_blank">   <img src="images/thrill.jpg" alt="" style="max-width: 100%; height: auto;"> 
+                            </a>
+                               <h3> <a class="underline" href="https://www.thrillvalley.com/"  target="_blank">THRILL VALLEY</a> </h3>
+                               <h3>  <caption ><p style="text-align: left;">Open Time : 10.00 AM - 6.00 PM  <br>     
+                                       Place :	kottaiyour
+                                    <br> <br>
+                                <a href="https://maps.app.goo.gl/JQoebKFBVmS4Fuqx5" target="_blank"> Click here for Location...</a></p> </caption> </h3><br>
+       
+                               <p>The Thrill Valley is a lush green land filled with flora and fauna, bringing you closer to the beauty of nature. The intent was to create a ‘Resort’ of traditions and culture equipped with all the modern amenities over the mere idea of a conventional resort. Away from the city hub, The Thrill Valley is a perfect place to rejuvenate yourself with peace, adventure, and some fantastic food.</p>
+       
+                       </div>    
+
+
+                               <div class="testimonial-slide swiper-slide">
+                            <a href="https://yelagiri-birds-park.business.site/" target="_blank"> <img src="images/birds.jpg" alt="" style="max-width: 100%; height: auto;"></a>
+                                    <h3> <a class="underline" href="https://yelagiri-birds-park.business.site/" target="_blank">BIRDS PARK </a></h3>
+                                    <h3>  <caption ><p style="text-align: left;">Open Time : 9.00 AM - 5.30 PM  <br>     
+                                         Enter fee : Rs 200 <br>             
+                                        Place :	Pudur
+                                        <br> <br>
+                                        <a href="https://maps.app.goo.gl/XuyjKdWvNSN9UBsa6" target="_blank"> Click here for Location...</a></p> </caption> </h3><br>
+        
+                                        <p>Yelagiri birds park is a great place to visit with family and friends. Birds There are a large variety of birds including several parrots, love birds, cockatoos and cockatiels, macaws, sun conures, red lory, ducks, pigeons, varities of chicken and more. Animals and reptiles There are goats, rabbits, snakes, turtles and chameleon</p>        
+                            </div>  
+
+
+                       <div class="testimonial-slide swiper-slide">
+                        <img src="images/cliff.jpg" alt="" style="max-width: 100%; height: auto;">
+                            <h3>NILAVOOR CLIFF VIEW POINT</h3>
+                            <h3>  <caption ><p style="text-align: left;">Open Time : Open 24 hours  <br>     
+                               Entry fee :Rs 50<br>     
+                               Place :	Nilavoor
+                               <br> <br>
+                                <a href="https://maps.app.goo.gl/Dw9cJJ6BhzMqGbvp6" target="_blank"> Click here for Location...</a></p> </caption> </h3><br>
+                                <p>The view was terrific and beautiful. It is the  best place for sunrise view</p>        
+                         </div>
+
+
+                         <div class="testimonial-slide swiper-slide">
+                            <img src="images/aqua1.webp" alt="" style="max-width: 100%; height: auto;">
+                                <h3>AQUA FOUNTAIN PARK</h3>
+                                <h3>  <caption ><p style="text-align: left;">Open Time : 10.00 AM - 8.30 PM  <br>     
+                                    Entry fee :150<br>     
+                                    Place :	Punganoor
+                                    <br> <br>
+                                    <a href="https://maps.app.goo.gl/tRmW6NUoHX5WfkT97" target="_blank"> Click here for Location...</a></p> </caption> </h3><br>
+
+                                    <p> In aqua fountain park having a Fountain . Birds There are a large variety of birds and it was inclue a small aquarium.
+                                </p>        
+                        </div>
+
+                        
+                        <div class="testimonial-slide swiper-slide">
+                          <a href="https://artk.in/" target="_blank" ><img src="images/Thanga Kottai.jpg" alt="" style="max-width: 100%; height: auto;"></a>
+                                <h3> <a class="underline" href="https://artk.in/" target="_blank"> THANGA KOTTAI </a></h3>
+                               <h3>  <caption ><p style="text-align: left;">Open Time : 10.00 AM - 9.30 PM  <br>     
+                                    Entry fee :350 for 2 hr <br>     
+                                    Place :	Kottaiyour
+                                    <br> <br>
+                                    <a href="https://maps.app.goo.gl/RraVBukWJwaLUhim8" target="_blank"> Click here for Location...</a></p> </caption> </h3><br>
+                                    <p>ARK Thanga Kottai aka ARK Golden Fort is a luxurious palace hotel with 105 Rooms. In every bit of the property, you can find lavish exteriors and luxury interiors. ARK Thangakottai comprises one of the largest swimming pools in the state with mammoth measurements of 128 ft. in length.</p>        
+                        </div>
+
+
+                        <div class="testimonial-slide swiper-slide">
+                            <img src="images/image.png" alt="" style="max-width: 100%; height: auto;"></a>
+                                  <h3>  SUSIDE POINT</a></h3>
+                                 <h3>  <caption ><p style="text-align: left;">Open Time : Any Time  <br>          
+                                      Place :	Nilavoor
+                                      <br> <br>
+                                      <a href="https://maps.app.goo.gl/q86pnbHT9zKdR1N47" target="_blank"> Click here for Location...</a></p> </caption> </h3><br>
+                                      <p>Yelagiri suicide point best place for sunrise view.</p>        
+                          </div>
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+
+
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">Public <span>Transport</span></h2>
+
+        <div class="services-container">
+
+
+
+            <div class="services-box">
+                <!-- <i class='bx bx-bar-chart-alt'></i> -->
+                <h3>Tirupattur to Yelagiri</h3>
+            
+                <div class="table-title">
+                    <h3>Bus Timimg</h3>
+                    </div>
+                    <table class="table-fill">
+                    <thead>
+                    <tr>
+                    <th class="text-left"> Time</th>
+                    <th class="text-left">Destination</th>
+                    </tr>
+                    </thead>
+                    <tbody class="table-hover">
+                    <tr>
+                    <td class="text-left">5:00 A.M</td>
+                    <td class="text-left">Athanavoor</td>
+                    </tr>
+                    <tr>
+                    <td class="text-left">5:30 A.M</td>
+                    <td class="text-left">Mangalam</td>
+                    </tr>
+                    <tr>
+                    <td class="text-left">6.15 A.M</td>
+                    <td class="text-left">Nilavoor</td>
+                    </tr>
+                    <tr>
+                    <td class="text-left">7:30 A.M</td>
+                    <td class="text-left">Athanavoor</td>
+                    </tr>
+                    <tr>
+                    <td class="text-left">7:45 A.M</td>
+                    <td class="text-left">Nilavoor</td>
+                    </tr>
+                     <tr>
+                    <td class="text-left">8:50 A.M</td>
+                    <td class="text-left">Mangalam</td>
+                    </tr>
+                    <tr>
+                    <td class="text-left">9:25 A.M</td>
+                    <td class="text-left">Nilavoor</td>
+                    </tr>
+                    <tr>
+                    <td class="text-left">10:50 A.M</td>
+                    <td class="text-left">Nilavoor</td>
+                    </tr>
+                     
+                    <tr>
+                        <td class="text-left">11:30 A.M</td>
+                        <td class="text-left">Mangalam</td>
+                        </tr>
+                       
+                            <tr>
+                            <td class="text-left">12:30 P.M</td>
+                            <td class="text-left">Nilavoor</td>
+                            </tr>
+
+                            <tr>
+                            <td class="text-left">1:30 P.M</td>
+                            <td class="text-left">Athanavoor</td>
+                            </tr>
+                            <tr>
+                                <td class="text-left">2:15 P.M</td>
+                                <td class="text-left">Nilavoor</td>
+                                </tr>
+                                <tr>
+                                <td class="text-left">2:50 P.M</td>
+                                <td class="text-left">Mangalam</td>
+                                </tr>
+                                <tr>
+                                <td class="text-left">3:30 P.M</td>
+                                <td class="text-left">Nilavoor</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-left">4:00 P.M</td>
+                                    <td class="text-left">Athanavoor</td>
+                                    </tr>
+                                    <tr>
+                                    <td class="text-left">4:15 P.M</td>
+                                    <td class="text-left">Athanavoor</td>
+                                    </tr>
+                                    <tr>
+                                    <td class="text-left">5:00 AP.M</td>
+                                    <td class="text-left">Nilavoor</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-left">6:50 AP.M</td>
+                                        <td class="text-left">Mangalam</td>
+                                        </tr>
+                                    <tr>
+                                        <td class="text-left">9:10 A.M</td>
+                                        <td class="text-left">Nilavoor</td>
+                                        </tr>
+                    </tbody>
+                    </table>
+                <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi itaque similique, architecto -->
+                    <!-- eaque ut quas delectus pariatur nesciunt in eligendi mollitia dicta.</p> -->
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+            
+            <div class="services-box">
+                <!-- <i class='bx bx-code-alt'></i> -->
+                            
+                <h3>  yelagiri Hills to Tirupattur   </h3>
+                <div class="table-title">  
+                                    <h3>Bus Timimg</h3>
+                </div>
+                <table class="table-fill">
+                <thead>
+                <tr>
+                <th class="text-left"> Time </th>
+                <th class="text-left">departure  place</th>
+                </tr>
+                </thead>
+                <tbody class="table-hover">
+                    <tr>
+                        <td class="text-left">4:45 A.M</td>
+                        <td class="text-left">Nilavoor</td>
+                        </tr>
+                        <tr>
+                        <td class="text-left">6:20 A.M</td>
+                        <td class="text-left">Athanavoor</td>
+                        </tr>
+                        <tr>
+                        <td class="text-left">7:30 A.M</td>
+                        <td class="text-left">Mangalam</td>
+                        </tr>
+                        <tr>
+                            <td class="text-left">08:15 A.M</td>
+                            <td class="text-left">Nilavoor</td>
+                            </tr>
+                            <tr>
+                            <td class="text-left">09:10 A.M</td>
+                            <td class="text-left">Athanavoor</td>
+                            </tr>
+                            <tr>
+                            <td class="text-left">10:00 A.M</td>
+                            <td class="text-left">Athanavoor</td>
+                            </tr>
+                            <tr>
+                                <td class="text-left">11:15 A.M</td>
+                                <td class="text-left">Nilavoor</td>
+                                </tr>
+                                <tr>
+                                <td class="text-left">12:00 P.M</td>
+                                <td class="text-left">Athanavoor</td>
+                                </tr>
+                                <tr>
+                                <td class="text-left">01:00 P.M</td>
+                                <td class="text-left">Nilavoor</td>
+                                </tr>
+                                
+                                <td class="text-left">01:30 P.M</td>
+                                <td class="text-left">Mangalam</td>
+                                </tr>
+                                <tr>
+                                <td class="text-left">02:15 P.M</td>
+                                <td class="text-left">Nilavoor</td>
+                                </tr>
+                                <tr>
+                                <td class="text-left">02:50 P.M</td>
+                                <td class="text-left"> Athanavoor</td>
+                                </tr>
+                                <tr>
+                                <td class="text-left">03:50 P.M</td>
+                                <td class="text-left">Nilavoor</td>
+                                </tr>
+                                <tr>
+                                <td class="text-left">04:25 P.M</td>
+                                <td class="text-left">Mangalam</td>
+                                </tr>
+                                <td class="text-left">05:10 P.M</td>
+                                <td class="text-left">Nilavoor</td>
+                                </tr>
+                                <tr>
+                                <td class="text-left">05:30 P.M</td>
+                                <td class="text-left">Athanavoor</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-left">05:45 P.M</td>
+                                    <td class="text-left">Athanavoor</td>
+                                    </tr>
+                                    <tr>
+                                    <td class="text-left">07:30 P.M</td>
+                                    <td class="text-left">Nilavoor</td>
+                                    </tr>
+                                    <td class="text-left">08:30 P.M</td>
+                                    <td class="text-left">Mangalam</td>
+                                    </tr>
+
+                        </tbody>
+                        </table>
+                
+
+                <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi itaque similique, architecto
+                    eaque ut quas delectus pariatur nesciunt in eligendi mollitia dicta.</p> -->
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
+            <!-- <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Graphic Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi itaque similique, architecto
+                    eaque ut quas delectus pariatur nesciunt in eligendi mollitia dicta.</p>
+                <a href="#" class="btn">Read More</a>
+            </div> -->
+            
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Hotels and <span>Residency</span></h2>
+
+        <div class="portfolio-container">
+            
+            <div class="portfolio-box">
+                <img src="images/Zeenath.jpg" alt="" >
+
+                <div class="portfolio-layer">
+                    <h4>Zeenath Taj Gardens</h4>
+                    <p>Kottaivur Village Yelagiri Hills</p>
+                    
+                    <a href="https://www.zeenathtajgardens.com/" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/egv1.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>EGV Residency</h4>
+                    <p>Athanavoor Village & Post, Yelagiri Hills</p>
+                    <a href="http://www.yelagiriegvresidency.com/" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/hotel_hills.avif" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Hotel Hills</h4>
+                    <p>Boat House Road, Athanavur ,
+                        Yelagiri Hills
+                        </p>
+                    <a href="http://www.hotelhillsyelagiri.com/" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            
+            <div class="portfolio-box">
+                <img src="images/treeboo.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Treebo Laa Gardenia Resort </h4>
+                    <p>Laa Gardenia Near Lions Club, Nilavur Road, Yelagiri Hills</p>
+                    <a href="https://www.treebo.com/" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            
+            <div class="portfolio-box">
+                <img src="images/Tgi.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>TGI Kairos</h4>
+                    <p>Pallakeniyur-Mettukaniyur Road
+                        Yelagiri Hills
+                        </p>
+                    <a href="https://www.tgihotels.com/" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            
+            <div class="portfolio-box">
+                <img src="images/naturetrails.avif" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Nature Trails</h4>
+                    <p>
+                        Yelagiri Hills
+                        </p>
+                    <a href="https://www.naturetrails.in/" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/hotel_landmark.avif" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Hotel LandMark</h4>
+                    <p>
+                        Boat House Road, Athanavur, Yelagiri Hills
+                        </p>
+                    <a href="https://www.landmarkyelagiri.com/" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/ags.avif" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>AGS Holiday Resort</h4>
+                    <p>Boat House Road, Athanavur ,
+                        Yelagiri Hills
+                        </p>
+                    <a href="https://agsholidayresorts.com/" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            
+            <div class="portfolio-box">
+                <img src="images/inn.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Thirumala  INN</h4>
+                    <p>Athanvur Village, Pasivatami Road, Yelagiri Hilla,</p>
+                    <a href="thirumala-inn.hotelsintamilnadu.com/" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+           
+
+            <div class="portfolio-box">
+                <img src="images/kumararajapalace.avif" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Kumara Raja Palace</h4>
+                    <p> Athanavur, Yelagiri Hills
+                        </p>
+                    <a href="https://kumararrajapalace.com/" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/peter_spark.webp" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Peter park</h4>
+                    <p>2 Km from yelagiri lake and 3 km from Nilavoor
+                        Yelagiri Hills
+                        </p>
+                    <a href="https://petersparkyelagiri.com/" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            
+            
+            <div class="portfolio-box">
+                <img src="images/dolguin.avif" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Dolphin guest house</h4>
+                    <p>1km from yelagiri Lake.</p>
+                    <a href="https://dolphinguesthouse.in/" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 | All Rights Reserved.</p>
+            <p>Designed by Vasudevan</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#" target="_top"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
